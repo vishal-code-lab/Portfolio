@@ -21,7 +21,7 @@ const Contact = () => {
         () => {
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
-          toast.success("Message sent success! ✅", {
+          toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
