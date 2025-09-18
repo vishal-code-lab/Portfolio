@@ -10,6 +10,8 @@ import Footer from "./Components/Footer/Footer";
 
 
 const App = () => {
+
+  console.log("vishal")
   return (
     <div className="bg-[#050414]">
 
