@@ -32,7 +32,7 @@ const About = () => {
 </h3>
 
 {/* About me paragraph */}
-<p className='text-base sm:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit itaque provident possimus autem voluptate. Corrupti rerum voluptas ipsum nesciunt laudantium soluta sunt architecto, qui consectetur maiores voluptatibus? Aspernatur, rerum a.</p>
+<p className='text-base sm:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>As a frontend developer, I specialize in building user-friendly and visually appealing web interfaces that bring ideas to life. My focus is on creating responsive, accessible, and high-performance applications using modern technologies like HTML, CSS, JavaScript, and frameworks such as React. I enjoy turning complex problems into simple, intuitive designs and ensuring a seamless user experience across devices.</p>
 
 {/* Resume Button */}
 
