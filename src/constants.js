@@ -24,6 +24,7 @@ import degree from './assets/EducationLogo/degree.jpeg'
 
 
 // Project Section Logo's
+import portfolio from './assets/WorkLogo/portfolio.jpg'
 
 
 
@@ -128,13 +129,13 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Personal Portfolio Website",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: novem_controls,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "A clean, responsive personal portfolio built with React, Tailwind CSS, HTML, and CSS — showcasing projects, skills, and a contact form for collaboration.",
+      image: portfolio,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "TAILWIND CSS"],
+      github: "https://github.com/vishal-code-lab/Portfolio",
+      webapp: "https://portfolio-one-wheat-25.vercel.app/",
     },
     {
       id: 1,
