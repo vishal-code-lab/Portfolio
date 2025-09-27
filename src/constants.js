@@ -25,6 +25,7 @@ import degree from './assets/EducationLogo/degree.jpeg'
 
 // Project Section Logo's
 import portfolio from './assets/WorkLogo/portfolio.jpg'
+import ecomzone from './assets/WorkLogo/ecomzone.jpg'
 
 
 
@@ -139,36 +140,28 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Ecomzone (Ecommerce-Website)",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: htmlLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-
-    {
-      id: 2,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: htmlLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "Ecomzone is a modern, responsive e-commerce website built using React.js and Tailwind CSS. It provides a seamless online shopping experience with a clean and intuitive interface. Users can browse a wide range of products, filter and search items, add them to the cart, and complete secure checkout efficiently.",
+      image: ecomzone,
+      tags:  ["HTML", "CSS", "JavaScript", "React JS", "TAILWIND CSS"],
+      github: "https://github.com/vishal-code-lab/Ecomzone",
+      webapp: "https://ecomzone.vercel.app/",
     },
 
 
-    {
-      id: 3,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: htmlLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
+    //! add new projects here
+    // {
+    //   id: 2,
+    //   title: "CS Prep",
+    //   description:
+    //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+    //   image: htmlLogo,
+    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    //   github: "https://github.com/codingmastr/CSPrep",
+    //   webapp: "https://csprep.netlify.app/",
+    // },
+
+
     
   ];  
