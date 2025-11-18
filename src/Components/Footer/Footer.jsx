@@ -4,6 +4,8 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react
 const Footer = () => {
   // Smooth scroll function
   const handleScroll = (sectionId) => {
+
+    
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -38,8 +40,8 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
+            { icon: <FaFacebook />, },
+            { icon: <FaTwitter />, },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/vishal-682a00255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
             // { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
             
