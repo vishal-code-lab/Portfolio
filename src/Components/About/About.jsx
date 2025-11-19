@@ -37,8 +37,8 @@ const About = () => {
 {/* Resume Button */}
 
 <a 
-  href="/Portfolio Website/src/assets/VISHAL.pdf" 
-  target="_blank" 
+  href="../../assets/vishal.pdf" 
+  download="VISHAL_Resume.pdf"
   rel="noopener noreferrer"
   className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-100 transform hover:scale-105"
   style={{
